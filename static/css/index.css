@@ -155,3 +155,22 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+.results-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.results-carousel .item {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.results-carousel video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+.results-carousel .video-label {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
